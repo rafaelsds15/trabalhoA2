@@ -1,0 +1,54 @@
+<html> 
+
+	<head> 
+		<meta charset *UTF-8*/>
+		<title> Site para cadastros de produtos </title>
+		<link rel = "stylensheet"type "text/css" href = "design.css"/>
+		
+		</head>
+	
+	<body>
+	<br> 
+	<h1> <center> Cadastre o seu Produto. </center> </h1>
+	<br> <br> 
+	<label> <center> Cadastrar Produto </center> </label>
+	<br>
+	
+	<script src = "script.js"> </script>
+	
+	<div id = "divForm">
+		<form methood = "GET" an action = "salvar.php" onsubmit = "return validar() " enctype = " multipart/form data">
+			<br>
+			
+
+		
+        <label> <center>Nome:</center> </label>
+		<center> <input type = "text" id = "txtnome" name = "txtnome"/> </center> <br> <br>
+   
+        <label> <center>Preço:</center> </label>
+		<center> <input type = "text" id = "txtpreco" name = "txtpreco"/> </center> <br> <br>
+		
+		<label> <center>Quantidade:</center> </label>
+		<center> <input type = "text" id = "txtquantidade" name = "txtquantidade"/> </center> <br> <br>
+		
+		<label> <center>Data de validade do produto:</label>
+		<center> <input type="date" id="data" name="data">
+		
+		<label> <center>Categoria:</center> </label> <br>
+		<center> <select name = "Categoria" >
+		
+			<option value = "categoria 1" selected > selecione: </option>
+			<option value = "categoria 2" > Alimenticíos  </option>
+			<option value = "categoria 3" > Higiene Pessoal  </option>
+			<option value = "categoria 4" > Produtos de Limpeza  </option>
+				</select> <center> <br> <br>
+	
+		<label>	<center> Foto: </center> </label>
+		<center> <img src "" alt = " imagem não inserida" width = 200 height = 300> </center> <br> <br> 
+		<center> <input type = "Submit" value = "Salvar" /> </center> 
+		
+		</form> 
+	</div>
+	</body>
+</html>	
+	

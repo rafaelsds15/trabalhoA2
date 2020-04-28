@@ -1,0 +1,35 @@
+body{
+	background: #ddd;
+}
+
+h1{
+	color: black;
+	border: solid 3px black;
+	padding: 13px;
+}
+
+label{
+	color: black;
+}
+
+#divForm label{
+	font-size: 5em;
+}
+
+#divForm{
+	background: ;
+	padding: 13px;
+	border-radius: 0 40px;
+}
+
+input{
+	background: red;
+}
+
+input[type="text"]{
+	background: #eee;
+}
+
+
+
+
